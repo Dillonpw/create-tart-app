@@ -2,6 +2,7 @@
   "name": "create-art-app",
   "description": "A quick starter for TypeScript, Astro, React, Tailwind CSS, and Prettier configuration for code formatting.",
   "type": "module",
+  "private": true,
   "keywords": [
     "TypeScript",
     "astro",
