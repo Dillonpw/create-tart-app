@@ -1,7 +1,7 @@
 {
   "name": "create-tart-app",
   "version": "1.0.0",
-  "description": "A custom npx starter for Astro, React, Tailwind, and Prettier",
+  "description": "A custom npx starter for TypeScript, Astro, React, Tailwind, and Prettier",
   "main": "index.js",
   "bin": {
     "create-tart-app": "./index.js"
@@ -16,6 +16,5 @@
     "tailwind",
     "prettier"
   ],
-  "author": "Your Name",
-  "license": "MIT"
+  "author": "YDillonpw",
 }
