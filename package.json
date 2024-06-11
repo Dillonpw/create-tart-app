@@ -1,44 +1,21 @@
 {
-  "name": "create-art-app",
-  "description": "A quick starter for TypeScript, Astro, React, Tailwind CSS, and Prettier configuration for code formatting.",
-  "type": "module",
-  "private": true,
+  "name": "create-tart-app",
+  "version": "1.0.0",
+  "description": "A custom npx starter for Astro, React, Tailwind, and Prettier",
+  "main": "index.js",
+  "bin": {
+    "create-tart-app": "./index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
   "keywords": [
-    "TypeScript",
+    "npx",
+    "starter",
     "astro",
     "react",
     "tailwind",
-    "prettier",
-    "custom",
-    "npm",
-    "package",
-    "starter",
-    "kit"
+    "prettier"
   ],
-  "author": "Dillonpw",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.7.0",
-    "@astrojs/react": "^3.5.0",
-    "@astrojs/tailwind": "^5.1.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "astro": "^4.10.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.4.5"
-  },
-  "devDependencies": {
-    "prettier": "^3.3.1",
-    "prettier-plugin-astro": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.6.2"
-  }
+  "author": "Your Name",
+  "license": "MIT"
 }
